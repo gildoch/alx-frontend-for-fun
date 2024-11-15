@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 a {
+    color: #931B3A;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #931B3A;
+    transition: 300ms;
+}
+
+a:hover::after {
+    width: 100%;
+}

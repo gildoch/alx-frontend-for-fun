@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+
+ul li {
+    list-style: none;
+    font-weight: bold;
+    border: 2px solid gainsboro;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+ul li:first-child {
+    background-image: url("./sprite.png");
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+    background-position: left;
+}
+
+ul li:nth-child(2) {
+    background-image: url("./sprite.png");
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+    background-position: center;
+}
+
+ul li:last-child {
+    background-image: url("./sprite.png");
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+    background-position: right;
+}
