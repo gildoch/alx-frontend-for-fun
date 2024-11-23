@@ -1,0 +1,11 @@
+/*Hover effect*/
+$clr-red: #FF0000;
+$clr-green: #00FF00;
+
+button {
+    color: $clr-red;
+
+    &:hover {
+        color: $clr-green;
+    }
+}
