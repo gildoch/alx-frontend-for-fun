@@ -1,0 +1,11 @@
+/*Nested tags*/
+$clr-gray: #3D3D3D;
+$clr-red: #FF0000;
+
+body {
+    color: $clr-gray;
+
+    .red {
+        color: $clr-red;
+    }
+}
