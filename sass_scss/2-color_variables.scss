@@ -1,0 +1,16 @@
+/*My Body color*/
+$mycolor: #3D3D3D;
+$bgcolor: #6D6D6D;
+
+body {
+    color: $mycolor;
+    background-color: $bgcolor;
+}
+
+p {
+    color: $mycolor;
+}
+
+h2 {
+    background-color: $bgcolor;
+}
