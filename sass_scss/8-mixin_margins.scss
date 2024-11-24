@@ -1,0 +1,13 @@
+/*Mixins*/
+@mixin mrg($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+body {
+    @include mrg(10px, 10px);
+}
+
+div {
+    @include mrg(15px, 15px);
+}
