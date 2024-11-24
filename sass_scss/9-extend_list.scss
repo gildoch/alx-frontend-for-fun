@@ -1,0 +1,17 @@
+/*Extended*/
+$clr-succs: #00FF00;
+$clr-warn: #FF0000;
+
+.info {
+    font-size: 12px;
+}
+
+.success {
+    color: $clr-succs;
+    @extend .info;
+}
+
+.warning {
+    color: $clr-warn;
+    @extend .info;
+}
